@@ -1,0 +1,110 @@
+@import "../variables";
+
+.yellow__zone {
+    background-color: $yellow;
+
+    .container-fluid {
+        max-width: 1114px;
+        width: 100%;
+        padding: 75px 0 79px 0;
+
+        .header {
+            margin: 0 0 55px 0;
+
+            * {
+                margin: 0;
+                color: $black;
+            }
+            span {
+                min-width: max-content;
+            }
+        }
+
+        .block {
+            text-align: center;
+
+            img {
+                margin: 0 0 20px 0;
+            }
+            p {
+                margin: 0;
+                font-size: 14px;
+                color: $black;
+            }
+            h1 {
+                margin: 10px 0;
+                font-size: 21px;
+                color: $red;
+            }
+        }
+    }
+
+    .pop__up {
+        width: 100%;
+        height: 100%;
+        display: none;
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        transition: 0.4s;
+
+        .close {
+            width: 100%;
+            text-align: right;
+            cursor: auto;
+
+            a {
+                border: none;
+                color: $black;
+                font-size: 23px;
+                text-decoration: none;
+            }
+        }
+
+        .pop__up__container {
+            max-width: 1114px;
+            width: 100%;
+            flex-wrap: wrap;
+            margin: auto;
+            padding: 0 15px 15px 15px;
+            border-radius: 10px;
+
+            .block {
+                text-align: left;
+                margin-top: 15px;
+                text-align: center;
+
+                img {
+                    margin-bottom: 5px;
+                }
+
+                p {
+                    max-width: 350px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .pop {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.5);
+
+        .pop__up__container {
+            background-color: $white;
+
+            .block {
+                box-shadow: 0 0 4px 2px rgba(35,21,21,.15);
+
+                p {
+                    color: $black;
+                }
+                h1 {
+                    color: $red;
+                }
+            }
+        }
+    }
+}

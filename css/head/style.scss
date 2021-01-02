@@ -1,0 +1,126 @@
+@import "../variables";
+
+.head {
+    background-image: url(../../image/bg-head.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 800px;
+
+    a {
+        color: $white;
+    }
+
+    .head__top {
+        flex-wrap: wrap;
+        margin: 0 auto;
+        max-width: 1560px;
+        min-height: 90px;
+
+        .top__center {
+            max-width: 653px;
+            width: 100%;
+        }
+
+        .top__right {
+            max-width: 172px;
+            width: 100%;
+
+            .search {
+                display: none;
+                background-color: white;
+                border-radius: 40px;
+                width: 100%;
+
+                input {
+                    max-width: 100px;
+                    width: 100%;
+                    border: none;
+                    outline: none;
+                }
+                a {
+                    text-decoration: none;
+                    margin-left: 10px;
+                    color: $black;
+                }
+            }
+            .onclick {
+                display: flex;
+            }
+            .remove {
+                display: none;
+            }
+        }
+    }
+
+    hr {
+        margin: 0 -15px;
+        background-color: $white;
+        height: 1px;
+    }
+
+    .head__bottom {
+        max-width: 1112px;
+        width: 100%;
+        height: 710px;
+        margin: 0 auto;
+        position: relative;
+
+        .bottom__left {
+            max-width: 535px;
+            width: 100%;
+            color: $white;
+            position: relative;
+            bottom: 6%;
+
+            h1 {
+                font-size: 64px;
+                margin: 0;
+            }
+            p {
+                width: 433px;
+                font-size: 24px;
+                margin: 35px 0 25px 0;
+            }
+            a {
+                margin-right: 10px;
+            }
+        }
+        .bottom__right {
+            max-width: 570px;
+            flex-wrap: wrap;
+            margin-bottom: 53px;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+
+            div {
+                width: 255px;
+                max-height: 175px;
+                margin: 15px;
+                padding: 30px 40px;
+
+                p {
+                    margin: 0 0 15px 0 auto;
+                    font-size: 21px;
+                    font-weight: 500;
+                    color: $white;
+                }
+                a {
+                    font-size: 14px;
+                }
+            }
+            .blue {
+                background-color: $blue;
+            }
+            .green {
+                background-color: $green;
+            }
+            .yellow {
+                background-color: $yellow;
+            }
+            .red {
+                background-color: $red;
+            }
+        }
+    }
+}

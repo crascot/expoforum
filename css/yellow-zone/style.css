@@ -1,0 +1,79 @@
+.yellow__zone {
+  background-color: #FFC41E; }
+  .yellow__zone .container-fluid {
+    max-width: 1114px;
+    width: 100%;
+    padding: 75px 0 79px 0; }
+    .yellow__zone .container-fluid .header {
+      margin: 0 0 55px 0; }
+      .yellow__zone .container-fluid .header * {
+        margin: 0;
+        color: #2E373B; }
+      .yellow__zone .container-fluid .header span {
+        min-width: -webkit-max-content;
+        min-width: -moz-max-content;
+        min-width: max-content; }
+    .yellow__zone .container-fluid .block {
+      text-align: center; }
+      .yellow__zone .container-fluid .block img {
+        margin: 0 0 20px 0; }
+      .yellow__zone .container-fluid .block p {
+        margin: 0;
+        font-size: 14px;
+        color: #2E373B; }
+      .yellow__zone .container-fluid .block h1 {
+        margin: 10px 0;
+        font-size: 21px;
+        color: #F6404F; }
+  .yellow__zone .pop__up {
+    width: 100%;
+    height: 100%;
+    display: none;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s; }
+    .yellow__zone .pop__up .close {
+      width: 100%;
+      text-align: right;
+      cursor: auto; }
+      .yellow__zone .pop__up .close a {
+        border: none;
+        color: #2E373B;
+        font-size: 23px;
+        text-decoration: none; }
+    .yellow__zone .pop__up .pop__up__container {
+      max-width: 1114px;
+      width: 100%;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      margin: auto;
+      padding: 0 15px 15px 15px;
+      border-radius: 10px; }
+      .yellow__zone .pop__up .pop__up__container .block {
+        text-align: left;
+        margin-top: 15px;
+        text-align: center; }
+        .yellow__zone .pop__up .pop__up__container .block img {
+          margin-bottom: 5px; }
+        .yellow__zone .pop__up .pop__up__container .block p {
+          max-width: 350px;
+          width: 100%; }
+  .yellow__zone .pop {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); }
+    .yellow__zone .pop .pop__up__container {
+      background-color: #FFFFFF; }
+      .yellow__zone .pop .pop__up__container .block {
+        -webkit-box-shadow: 0 0 4px 2px rgba(35, 21, 21, 0.15);
+        box-shadow: 0 0 4px 2px rgba(35, 21, 21, 0.15); }
+        .yellow__zone .pop .pop__up__container .block p {
+          color: #2E373B; }
+        .yellow__zone .pop .pop__up__container .block h1 {
+          color: #F6404F; }

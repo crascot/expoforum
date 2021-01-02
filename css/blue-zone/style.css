@@ -1,0 +1,27 @@
+.blue__zone {
+  background-color: #2378FC;
+  padding: 75px 0; }
+  .blue__zone .container-fluid {
+    max-width: 1114px;
+    width: 100%; }
+    .blue__zone .container-fluid div {
+      max-width: 210px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      height: -webkit-max-content;
+      height: -moz-max-content;
+      height: max-content; }
+      .blue__zone .container-fluid div * {
+        color: #FFFFFF; }
+      .blue__zone .container-fluid div h1 {
+        font-size: 30px;
+        margin: 0 0 15px 0; }
+      .blue__zone .container-fluid div a {
+        font-size: 16px;
+        width: 100%;
+        margin: 15px 0 0 0; }
+      .blue__zone .container-fluid div a:hover {
+        color: #FFC41E; }
