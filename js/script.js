@@ -1,6 +1,7 @@
-let search = document.querySelector('.search');
+let search   = document.querySelector('.search');
 let language = document.querySelector('.language');
-let pop = document.querySelector('.pop__up');
+let pop      = document.querySelector('.pop__up');
+let email    = document.querySelector('.email__button');
 
 
 document.querySelector('.iconSearch').onclick = function () {
