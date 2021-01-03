@@ -15,15 +15,14 @@
             display: flex;
             flex-wrap: wrap;
             height: max-content;
-            
-            * {
-                color: $white;
-            }
+
             h1 {
+                color: $white;
                 font-size: 21px;
                 margin: 0 0 10px 0;
             }
             a {
+                color: $gray;
                 font-size: 14px;
                 font-weight: 400;
                 width: 100%;
@@ -39,9 +38,9 @@
     }
 
     .right {
-        color: $white;
 
         h1 {
+            color: $white;
             font-size: 21px;
             margin: 0;
         }
@@ -57,16 +56,20 @@
                 margin: 0 0 15px 0;
             }
             p {
+                color: $gray;
                 font-size: 14px;
+                margin: 0;
             }
 
             .search {
                 width: 255px;
+                height: 40px;
                 display: flex;
                 justify-content: space-between;
                 background-color: $white;
                 position: relative;
-                height: 40px;
+                margin-top: 25px;
+                
                 input {
                     padding: 13px 0 11px 20px;
                     outline: none;
