@@ -1,0 +1,72 @@
+.green__zone {
+  background-color: #30BCC9; }
+  .green__zone .left {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    max-width: 727px;
+    width: 100%;
+    margin-top: -40px; }
+    .green__zone .left div {
+      margin-top: 40px;
+      max-width: 210px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      height: -webkit-max-content;
+      height: -moz-max-content;
+      height: max-content; }
+      .green__zone .left div h1 {
+        color: #FFFFFF;
+        font-size: 21px;
+        margin: 0 0 10px 0; }
+      .green__zone .left div a {
+        color: #E0E0E0;
+        font-size: 14px;
+        font-weight: 400;
+        width: 100%;
+        margin: 10px 0 0 0; }
+      .green__zone .left div a:hover {
+        color: #FFC41E; }
+      .green__zone .left div img {
+        margin: 10px 0 0 0; }
+  .green__zone .right h1 {
+    color: #FFFFFF;
+    font-size: 21px;
+    margin: 0; }
+  .green__zone .right .top svg {
+    margin: 30px 0 50px 0; }
+  .green__zone .right .bottom {
+    max-width: 255px;
+    width: 100%; }
+    .green__zone .right .bottom h1 {
+      margin: 0 0 15px 0; }
+    .green__zone .right .bottom p {
+      color: #E0E0E0;
+      font-size: 14px;
+      margin: 0; }
+    .green__zone .right .bottom .search {
+      width: 255px;
+      height: 40px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      background-color: #FFFFFF;
+      position: relative;
+      margin-top: 25px; }
+      .green__zone .right .bottom .search input {
+        padding: 13px 0 11px 20px;
+        outline: none;
+        border: none; }
+      .green__zone .right .bottom .search svg {
+        position: absolute;
+        right: 0;
+        background-color: #F6404F;
+        margin: 0 auto;
+        width: 40px;
+        height: inherit;
+        padding: 12.09px 11px 10.09px 11px; }
