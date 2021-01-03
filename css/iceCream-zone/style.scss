@@ -1,0 +1,65 @@
+@import "../variables";
+
+.ice__cream {
+    background-color: $iceCream;
+
+    .container-fluid {
+        padding: 75px 0 26px 0;
+        flex-wrap: wrap;
+
+        .left {
+            width: 50%;
+
+            img {
+                margin-bottom: 59px;
+            }
+        }
+
+        .right {
+            flex-wrap: wrap;
+            width: 50%;
+
+            h1 {
+                margin: 0;
+                font-size: 30px;
+            }
+            span {
+
+                a {
+                    color: $black;
+                    font-size: 21px;
+                    text-align: center;
+                }
+                svg {
+                    transform: translate(5px ,-2px);
+                }
+            }
+        }
+    }
+}
+
+.news {
+    width: 100%;
+
+    .news__block {
+        max-width: 530px;
+        width: 100%;
+        padding-left: 0;
+        padding-top: 0;
+
+        .text {
+            margin-left: 30px;
+
+            h1 {
+                color: $red;
+                font-size: 16px;
+                margin: 0 0 14px 0;
+            }
+            p {
+                color: $black;
+                font-size: 21px;
+                margin: 0;
+            }
+        }
+    }
+}
