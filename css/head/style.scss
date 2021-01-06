@@ -100,10 +100,13 @@
             a {
                 margin-right: 10px;
             }
+            svg {
+                margin: 9.5px 0 auto;
+            }
         }
         .bottom__right {
             max-width: 570px;
-            min-width: 570px;
+            width: 100%;
             flex-wrap: wrap;
             margin-bottom: 53px;
             position: absolute;
@@ -111,7 +114,7 @@
             bottom: 0;
 
             div {
-                width: 255px;
+                max-width: 255px;
                 max-height: 175px;
                 margin: 15px;
                 padding: 30px 40px;
@@ -152,7 +155,6 @@
         text-align: center;
     }
     .bottom__right {
-        max-width: 100%;
         margin: 0 auto;
         left: 0;
     }
@@ -173,6 +175,18 @@
         right: 0;
         top: 0;
         margin-top: 11px;
+    }
+}
+
+@media (max-width: 599px) {
+    .head__bottom {
+        max-height: 300px;
+    }
+    .bottom__left {
+        bottom: 59.5%;
+    }
+    .bottom__right * {
+        display: none;
     }
 }
 
