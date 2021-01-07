@@ -7,6 +7,8 @@
     .container-fluid {
         max-width: 1114px;
         width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-between;
 
         div {
             max-width: 210px;
@@ -29,6 +31,31 @@
             a:hover {
                 color: $yellow;
             }
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .blue__zone .container-fluid {
+        justify-content: center;
+
+        div {
+            margin: 10px 60px;
+        }
+    }
+}
+
+@media (max-width: 689px) {
+    .blue__zone {
+        padding: 35px 0;
+
+        div {
+            text-align: center;
+        }
+        h1 {
+            max-width: 100%;
+            width: 100%;
+            text-align: center;
         }
     }
 }
