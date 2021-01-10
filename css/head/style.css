@@ -71,7 +71,7 @@
       -ms-flex-wrap: wrap;
       flex-wrap: wrap; }
       .head .head__bottom .bottom__left h1 {
-        font-size: 64px;
+        font-size: calc(43px + 21 * (100vw / 1980));
         margin: 0; }
       .head .head__bottom .bottom__left p {
         width: 433px;
@@ -150,5 +150,9 @@
     display: none; } }
 
 @media (max-width: 480px) {
+  .head__top .top__right {
+    margin: auto;
+    margin-right: 0;
+    padding-top: 16px; }
   .top__right {
     position: relative; } }
