@@ -54,6 +54,8 @@
             cursor: auto;
 
             a {
+                position: fixed;
+                transform: translateX(-10px);
                 border: none;
                 color: $black;
                 font-size: 23px;

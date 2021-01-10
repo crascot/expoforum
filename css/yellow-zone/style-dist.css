@@ -44,6 +44,10 @@
       text-align: right;
       cursor: auto; }
       .yellow__zone .pop__up .close a {
+        position: fixed;
+        -webkit-transform: translateX(-10px);
+        -ms-transform: translateX(-10px);
+        transform: translateX(-10px);
         border: none;
         color: #2E373B;
         font-size: 23px;
