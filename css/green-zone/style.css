@@ -52,7 +52,7 @@
       color: #E0E0E0;
       font-size: 14px;
       margin: 0; }
-    .green__zone .right .bottom .search {
+    .green__zone .right .bottom .bottom__email {
       width: 255px;
       height: 40px;
       display: -webkit-box;
@@ -64,11 +64,11 @@
       background-color: #FFFFFF;
       position: relative;
       margin-top: 25px; }
-      .green__zone .right .bottom .search input {
+      .green__zone .right .bottom .bottom__email input {
         padding: 13px 0 11px 20px;
         outline: none;
         border: none; }
-      .green__zone .right .bottom .search svg {
+      .green__zone .right .bottom .bottom__email svg {
         position: absolute;
         right: 0;
         background-color: #F6404F;

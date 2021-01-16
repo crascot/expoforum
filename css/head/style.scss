@@ -55,6 +55,10 @@
                     transform: translate(-3px, -2px);
                     margin-left: 10px;
                     color: $black;
+
+                    span {
+                        font-size: 100%;
+                    }
                 }
             }
             .onclick {
@@ -62,6 +66,26 @@
             }
             .remove {
                 display: none;
+            }
+
+            .language {
+
+                a {
+                    margin-left: 5px;
+                    color: $white;
+                }
+                .dropdown-menu {
+                    transform: translateX(-80px);
+                
+                    a {
+                        color: $black;
+                    }
+                    a:hover {
+                        background-color: $white;
+                        color: $blue;
+                        width: inherit;
+                    }
+                }
             }
         }
     }

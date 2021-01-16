@@ -45,12 +45,27 @@
           transform: translate(-3px, -2px);
           margin-left: 10px;
           color: #2E373B; }
+          .head .head__top .top__right .search button span {
+            font-size: 100%; }
       .head .head__top .top__right .onclick {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex; }
       .head .head__top .top__right .remove {
         display: none; }
+      .head .head__top .top__right .language a {
+        margin-left: 5px;
+        color: #FFFFFF; }
+      .head .head__top .top__right .language .dropdown-menu {
+        -webkit-transform: translateX(-80px);
+        -ms-transform: translateX(-80px);
+        transform: translateX(-80px); }
+        .head .head__top .top__right .language .dropdown-menu a {
+          color: #2E373B; }
+        .head .head__top .top__right .language .dropdown-menu a:hover {
+          background-color: #FFFFFF;
+          color: #2378FC;
+          width: inherit; }
   .head hr {
     margin: 0 -15px;
     background-color: #FFFFFF;
