@@ -40,13 +40,13 @@
           outline: none; }
         .head .head__top .top__right .search button {
           outline: none;
-          -webkit-transform: translate(-3px, -2px);
-          -ms-transform: translate(-3px, -2px);
-          transform: translate(-3px, -2px);
+          -webkit-transform: translate(-3px, -2.9px);
+          -ms-transform: translate(-3px, -2.9px);
+          transform: translate(-3px, -2.9px);
           margin-left: 10px;
           color: #2E373B; }
           .head .head__top .top__right .search button span {
-            font-size: 100%; }
+            font-size: 25px; }
       .head .head__top .top__right .onclick {
         display: -webkit-box;
         display: -ms-flexbox;
