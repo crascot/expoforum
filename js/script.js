@@ -11,7 +11,7 @@ document.querySelector('.iconSearch').onclick = function () {
 
     this.classList.add('remove');
 }
-document.querySelector('.close').onclick = function () {
+document.querySelector('.close-button').onclick = function () {
     search.classList.remove('onclick');
 
     document.querySelector('.iconSearch').classList.remove('remove')
