@@ -52,10 +52,16 @@
           background-color: rgba(255, 255, 255, 0);
           color: gray;
           font-weight: 700;
-          font-size: 25px;
-          -webkit-transform: translateY(-2px);
-          -ms-transform: translateY(-2px);
-          transform: translateY(-2px); }
+          font-size: 19px;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center; }
         .head .head__top .top__right .search button:hover {
           color: #2E373B; }
       .head .head__top .top__right .onclick {

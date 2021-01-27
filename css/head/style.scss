@@ -64,8 +64,10 @@
                     background-color: rgba($color: $white, $alpha: 0);
                     color: gray;
                     font-weight: 700;
-                    font-size: 25px;
-                    transform: translateY(-2px);
+                    font-size: 19px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
                 }
                 button:hover {
                     color: $black;
