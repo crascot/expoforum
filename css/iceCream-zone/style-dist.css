@@ -27,9 +27,7 @@
           font-size: 21px;
           text-align: center; }
         .ice__cream .container-fluid .right span svg {
-          -webkit-transform: translate(5px, -2px);
-          -ms-transform: translate(5px, -2px);
-          transform: translate(5px, -2px); }
+          margin-bottom: 2.5px; }
 
 .news {
   width: 100%; }

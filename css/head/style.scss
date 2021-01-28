@@ -38,31 +38,45 @@
             max-width: 172px;
             width: 100%;
 
+            .iconSearch {
+                transform: translateY(2.5px);
+            }
+
             .search {
                 display: none;
                 background-color: white;
                 border-radius: 40px;
                 width: 100%;
+                height: 30px;
+                padding: 0 7px;
 
                 input {
                     max-width: 100px;
                     width: 100%;
                     border: none;
                     outline: none;
+                    background-color: rgba($color: $white, $alpha: 0);
                 }
                 button {
                     outline: none;
-                    transform: translate(-3px, -2px);
-                    margin-left: 10px;
+                    border: none;
+                    cursor: pointer;
+                    background-color: rgba($color: $white, $alpha: 0);
+                    color: gray;
+                    font-weight: 700;
+                    font-size: 19px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                button:hover {
                     color: $black;
-
-                    span {
-                        font-size: 100%;
-                    }
                 }
             }
             .onclick {
                 display: flex;
+                justify-content: center;
+                align-items: center;
             }
             .remove {
                 display: none;
