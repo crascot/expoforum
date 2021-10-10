@@ -28,29 +28,52 @@
     .head .head__top .top__right {
       max-width: 172px;
       width: 100%; }
+      .head .head__top .top__right .iconSearch {
+        -webkit-transform: translateY(2.5px);
+        -ms-transform: translateY(2.5px);
+        transform: translateY(2.5px); }
       .head .head__top .top__right .search {
         display: none;
         background-color: white;
         border-radius: 40px;
-        width: 100%; }
+        width: 100%;
+        height: 30px;
+        padding: 0 7px; }
         .head .head__top .top__right .search input {
           max-width: 100px;
           width: 100%;
           border: none;
-          outline: none; }
+          outline: none;
+          background-color: rgba(255, 255, 255, 0); }
         .head .head__top .top__right .search button {
           outline: none;
-          -webkit-transform: translate(-3px, -2px);
-          -ms-transform: translate(-3px, -2px);
-          transform: translate(-3px, -2px);
-          margin-left: 10px;
+          border: none;
+          cursor: pointer;
+          background-color: rgba(255, 255, 255, 0);
+          color: gray;
+          font-weight: 700;
+          font-size: 19px;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center; }
+        .head .head__top .top__right .search button:hover {
           color: #2E373B; }
-          .head .head__top .top__right .search button span {
-            font-size: 100%; }
       .head .head__top .top__right .onclick {
         display: -webkit-box;
         display: -ms-flexbox;
-        display: flex; }
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center; }
       .head .head__top .top__right .remove {
         display: none; }
       .head .head__top .top__right .language a {
